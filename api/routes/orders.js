@@ -7,7 +7,7 @@ router.get('/', (req, res, next) => {
         message: 'Orders were fetched'
     });
 });
-
+// Test
 router.post('/', (req, res, next) => {
     const order = {
         productId: req.body.productId,
