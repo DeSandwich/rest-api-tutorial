@@ -14,7 +14,8 @@ mongoose.connect(
     "@node-shop-tmiml.mongodb.net/test?retryWrites=true&w=majority", 
     {
         useNewUrlParser: true,
-        useUnifiedTopology: true
+        useUnifiedTopology: true,
+        useCreateIndex: true
     }
 );
 
